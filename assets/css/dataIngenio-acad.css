@@ -1,0 +1,95 @@
+/*
+.reveal span.mjx-chtml {
+display: inline-block;
+line-height: 0;
+text-indent: 0;
+text-align: left;
+text-transform: none;
+font-style: normal;
+font-weight: normal;
+font-size: 100%;
+font-size-adjust: none;
+letter-spacing: normal;
+word-wrap: normal;
+word-spacing: normal;
+white-space: nowrap;
+float: none;
+direction: ltr;
+max-width: none;
+max-height: none;
+min-width: 0;
+min-height: 0;
+border: 0;
+margin: 0;
+padding: 1px 0;
+font-family: MJXc-TeX-math-I,MJXc-TeX-math-Ix,MJXc-TeX-math-Iw;
+}
+*/
+
+/* Footer Style */
+#footer-container { 
+    background-color: #323232; 
+}
+
+footer {
+    color: #989898;
+}
+
+.article-style img,
+.article-style video {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*box-shadow: 1px 1px 0px #edefed, -1px -1px 0px #edefed, 1px -1px 0px #edefed, -1px 1px 0px #edefed;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+/* font-family: 'Raleway', sans-serif; 
+height: 50px; 
+
+background-color:#333333;
+/* Fixing academic.css line 979  
+margin: 64px 0 0;
+padding: 32px 0; 
+}
+*/
+
+/* nav 
+
+.navbar-light .navbar-nav>.nav-item>.nav-link,
+.navbar-light .navbar-nav>.nav-item>.nav-link:focus,
+.navbar-light .navbar-nav>.nav-item>.nav-link:hover,
+.navbar-light .navbar-nav>.nav-item>.nav-link:active {
+font-weight: 700;
+}
+
+.navbar-light .navbar-nav > li.nav-item > a.active, 
+.navbar-light .navbar-nav > li.nav-item > a.active:focus, 
+.navbar-light .navbar-nav > li.nav-item > a.active:hover {
+font-weight: 700;
+transition: color .2s ease;
+}
+
+.navbar-light {
+box-shadow: none;
+text-transform: uppercase;
+letter-spacing: .08em;
+}
+
+.navbar-nav {
+border-bottom: 2px solid #E13D3D;
+}
+
+.navbar-brand {
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: .08em;
+}
+
+.navbar-light .navbar-brand:focus, 
+.navbar-light .navbar-brand:hover {
+color: #d03b39;
+}
+
+*/
