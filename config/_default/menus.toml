@@ -20,17 +20,17 @@
   
 [[main]]
   name = "data sources"
-  url = ""
+  url = "/dataSources/"
   weight = 40
 
-[[main]]
-  name = "tutorials"
-  url = "#tutorials"
-  weight = 50
+#[[main]]
+#  name = "tutorials"
+#  url = "tutorials"
+#  weight = 50
 
 [[main]]
   name = "contact"
-  url = "#contact"
+  url = "/contact/"
   weight = 60
 
 
