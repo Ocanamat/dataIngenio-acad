@@ -7,11 +7,14 @@ summary: ""
 authors: []
 tags: []
 categories: []
+
 date: {{ .Date }}
-publishDate : {{ .Date }}
 lastmod: {{ .Date }}
+
 featured: false
 draft: false
+publishDate : {{ .Date }}
+
 commentable: true
 editable: false
 
