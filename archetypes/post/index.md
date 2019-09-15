@@ -7,6 +7,7 @@ summary: ""
 authors: []
 tags: []
 categories: []
+toc: true
 
 date: {{ .Date }}
 lastmod: {{ .Date }}
@@ -17,6 +18,8 @@ publishDate : {{ .Date }}
 
 commentable: true
 editable: false
+
+keywords: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
