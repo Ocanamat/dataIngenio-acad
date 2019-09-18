@@ -7,7 +7,7 @@ This is the source code for the dataIngenio website.
 
 ## Table of contents
 * [General info](#general-info)
-* [Development & DEployment](#Deployment)
+* [Development & Deployment](#Deployment)
 * [Credits](#Credits)
 * [Modifications](#Modifications)
 * [License](#License)
