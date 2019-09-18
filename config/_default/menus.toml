@@ -17,17 +17,18 @@
   name = "projects"
   url = "#projects"
   weight = 30
-  
-[[main]]
-  name = "data sources"
-  url = "/dataSources/"
-  weight = 40
+###################################
+#For Future Development
+#[[main]]
+#  name = "data sources"
+#  url = "/dataSources/"
+#  weight = 40
 
 #[[main]]
 #  name = "tutorials"
 #  url = "tutorials"
 #  weight = 50
-
+##################################33
 [[main]]
   name = "contact"
   url = "/contact/"
