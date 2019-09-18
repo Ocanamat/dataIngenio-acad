@@ -16,7 +16,7 @@ height = "450px"
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
-  title = "dataIngenio: Insightful DataSci"
+  title = "Insightful Data Science"
   content = "Machine Learning / Deep Learning / Optimization / Citizen DataSci"
   align = "center"  # Choose `center`, `left`, or `right`.
 
