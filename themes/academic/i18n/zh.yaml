@@ -2,7 +2,7 @@
 
 - id: toggle_navigation
   translation: 切换导航
-
+  
 - id: table_of_contents
   translation: 目录
 
@@ -18,7 +18,7 @@
   translation: 相关
 
 - id: minute_read
-  translation: 阅读时间（分钟）
+  translation: 分钟阅读时长
 
 - id: previous
   translation: 上一页
