@@ -28,7 +28,7 @@ googleAnalytics = "UA-122469830-1"
 ############################
 
 # Name of Academic theme folder in `themes/`.
-theme = "hugo-academic"
+theme = "academic"
 # theme_version = 4.5
 # theme_updateDate = 12.Sep.2019
 
