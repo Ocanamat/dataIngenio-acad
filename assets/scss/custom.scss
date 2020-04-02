@@ -1,3 +1,59 @@
+
+/* This fixes Logo Vertical Stretch on Navbar */
+/*
+.navbar-brand img {
+    width: auto;
+    height: -moz-available;
+    height: -webkit-fill-available;
+    height: -webkit-stretch;
+    height: stretch;
+    max-height: 40px;
+    max-width: fit-content
+}
+*/
+
+.navbar-brand {
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.navbar-brand {
+  // Set v-padding to 5px to align with 50/70px responsive max navbar heights.
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1030;  // For z-index clickable mobile logo.
+}
+
+/* Footer Style */
+#footer-container {
+    background-color: #323232;
+}
+
+footer {
+    color: #989898;
+}
+
+/* Images and Videos Shadow */
+.article-style img,
+.article-style video {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px 10px 20px 10px;
+}
+
+
+/* font-family: 'Raleway', sans-serif;
+height: 50px;
+
+background-color:#333333;
+
+/* Fixing academic.css line 979
+margin: 64px 0 0;
+padding: 32px 0;
+}
+*/
+
 /*
 .reveal span.mjx-chtml {
 display: inline-block;
@@ -26,37 +82,16 @@ font-family: MJXc-TeX-math-I,MJXc-TeX-math-Ix,MJXc-TeX-math-Iw;
 }
 */
 
-/* Footer Style */
-#footer-container {
-    background-color: #323232;
+
+/*
+.dropdown-menu,
+nav#navbar-main li.nav-item {
+  font-size: 16px;
+  font-weight: bold;
 }
 
-footer {
-    color: #989898;
-}
 
-.article-style img,
-.article-style video {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /*box-shadow: 1px 1px 0px #edefed, -1px -1px 0px #edefed, 1px -1px 0px #edefed, -1px 1px 0px #edefed;*/
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding: 0;
-}
-/* font-family: 'Raleway', sans-serif;
-height: 50px;
 
-background-color:#333333;
-
-/* Fixing academic.css line 979
-margin: 64px 0 0;
-padding: 32px 0;
-}
-*/
-
-/* nav
 
 .navbar-light .navbar-nav>.nav-item>.nav-link,
 .navbar-light .navbar-nav>.nav-item>.nav-link:focus,
@@ -82,6 +117,7 @@ letter-spacing: .08em;
 border-bottom: 2px solid #E13D3D;
 }
 
+
 .navbar-brand {
 text-transform: uppercase;
 font-weight: 700;
@@ -94,3 +130,4 @@ color: #d03b39;
 }
 
 */
+
