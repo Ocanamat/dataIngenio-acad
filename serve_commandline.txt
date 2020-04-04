@@ -1,0 +1,1 @@
+hugo server -D -F --disableFastRender -v --appendPort -p 4321 --debug --gc --noHTTPCache --logFile hugoServer.log

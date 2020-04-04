@@ -6,21 +6,23 @@
 
         {{ partial "search" . }}
 
-        {{ partial "navbar.html" . }}
+        {{ partial "navbar" . }}
+
+        <!-- {{ partial "debug" . }} Partial for debugging -->
 
         {{ block "main" . }}{{ end }}
 
-        {{ partial "site_js.html" . }}
+        {{ partial "site_js" . }}
 
         {{ if ne .Type "docs" }}
         <div id="footer-container" class="container-fluid">
             <div class="container">
-                {{ partial "site_footer.html" . }}
+                {{ partial "site_footer" . }}
             </div>
         </div>
         {{ end }}
 
-        {{ partial "citation.html" . }}
+        {{ partial "citation" . }}
 
     </body>
 </html>
