@@ -39,6 +39,7 @@ subtitle = "ready to deploy & enjoy"
 
   # Toggle between the various page layout types.
   #   1 = List
+  #   2 = Compact
   #   3 = Card
   #   5 = Showcase
   view = 3
@@ -65,6 +66,10 @@ subtitle = "ready to deploy & enjoy"
 
   # Text color (true=light or false=dark).
   # text_color_light = true  
+  
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["40px", "0", "20px", "0"]
   
 [advanced]
  # Custom CSS. 
