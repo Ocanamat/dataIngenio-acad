@@ -100,5 +100,5 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 [permalinks]
   # post = "/:year/:month/:section/:slug/"
   # post = "/:year/:month/:day/:slug/"
-  post = "/post/:year-:month-:slug/"
+  post = "/post/:year-:month-:day_:slug/"
   page = "/:slug/"
