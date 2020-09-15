@@ -30,8 +30,8 @@ copyright = "© dataIngenio `{year}`. All rights reserved"
 
 # Name of Academic theme folder in `themes/`.
 theme = "academic"
-# theme_version = 4.5
-# theme_updateDate = 12.Sep.2019
+# theme_version = 4.8
+# theme_updateDate = 30.Mar.2020
 
 # Get last modified date for content from Git?
 enableGitInfo = false
@@ -87,13 +87,13 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 # Taxonomies.
 [taxonomies]
   tag = "tags"
-  category = "categories"
-  datastep = "datasteps"
-    # Problem Understanding, Data Acq, Data Source, ETl, Data Cleaning, Data Exploration, Modeling, Feature Engineering, Model Training, Model Evaluation, Visualization, Understanding, Deployment
+  topic = "topics"
+  publication_type = "publication_types"
+  step = "steps"
+  series = "series"
 
   #publication_type = "publication_types"
   #archive = "archives"
-  #series = "series"
   #author = "authors"
 
 # Permalinks

@@ -1,0 +1,17 @@
+"tags"
+
+
+"categories"
+    development, 
+    publishing, 
+    marketing, 
+    management, 
+    infrastructure, 
+    language,
+    review
+
+step = "steps"
+    Problem Understanding, Data Acq, Data Source, ETl, Data Cleaning, Data Exploration, Modeling, Feature Engineering, Model Training, Model Evaluation, Visualization, Understanding, Deployment
+
+
+series = "series"
