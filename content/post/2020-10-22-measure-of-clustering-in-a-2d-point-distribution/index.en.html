@@ -16,7 +16,7 @@ image:
   caption: ''
   focal_point: ''
   preview_only: no
-draft: true
+draft: false
 projects: []
 runtime: shiny
 ---
@@ -83,8 +83,8 @@ plot(x)</code></pre>
 <p><img src="/post/2020-10-22-measure-of-clustering-in-a-2d-point-distribution/index.en_files/figure-html/unnamed-chunk-2-2.png" width="672" /></p>
 <pre class="r"><code>## Clustered Distribution
 nclust &lt;- function(x0, y0, radius, n) {
-              return(runifdisc(n, radius, centre=c(x0, y0)))
-            }
+  return(runifdisc(n, radius, centre = c(x0, y0)))
+}
 data &lt;- as.data.frame.ppp(rPoissonCluster(20, 0.1, nclust, radius = 0.1, n = 5))
 plot(data)</code></pre>
 <p><img src="/post/2020-10-22-measure-of-clustering-in-a-2d-point-distribution/index.en_files/figure-html/unnamed-chunk-2-3.png" width="672" /></p>
